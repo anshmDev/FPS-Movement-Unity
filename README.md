@@ -8,5 +8,5 @@ You can use it but don't forget to credit me.
 I will be updating this as much as I can. Currently it has only crouch and walking.
 I am planning to implement sprinting, crouch speed change, and prone. 
 
-If you find any bugs or have any suggestions, feel free to post it in the "Issues" tab.
+If you find any bugs or have any suggestions, feel free to post it in the "Issues" and "Pull requests"(Only for changes to code) tab.
 
