@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     
     //some movement jump and speed variables
     public float walkSpeed = 2f;
-    public float runSpeed = 4f;//the runSpeed and crouchSpeed variables are not being used rn. Planning to integrate it soo though
+    public float runSpeed = 4f;//the runSpeed and crouchSpeed variables are not being used rn. Working to integrate it soon though.
     public float crouchSpeed = 0.5f;
     public float jumpHeight = 3f;
     public float gravity = -9.81f; //earths gravity is about 9.81 m/s^2, so this is the default value for the script.(if i removed the minus the player would float)
@@ -90,7 +90,7 @@ public class Movement : MonoBehaviour
 
         
         
-        /*some commented out code just in case I mess up or there is a conflict. this is basically a backup movement script
+        /*some commented out code just in case I mess up or there is a conflict. this is basically a backup movement function
         Vector3 forwardMovement = transform.forward * zMove;
         Vector3 rightMovement = transform.right * xMove;
         Vector3 movement = new Vector3(xMove, 0, zMove);
