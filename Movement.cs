@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     public float crouchSpeed = 0.5f;
     public float jumpHeight = 3f;
     public float gravity = -9.81f; //earths gravity is about 9.81 m/s^2, so this is the default value for the script.(if i removed the minus the player would float)
-    /*public float maxSpeed = 10f;/*
+    /*public float maxSpeed = 10f;*/
     //This is not needed. This is in case the script has a conflict
 
     //stuff for the grounded stuff
